@@ -26,6 +26,6 @@ class Solution:
 
 s = Solution()
 
-word_list =  ["flower","flower","flower","flower"]
+word_list =  ["flower","flower","flower","flower","fl"]
 
 print (s.longestCommonPrefix(word_list))

@@ -23,7 +23,7 @@ class Solution:
        
 s = Solution()
 
-teststr = "{[()]}{}{}{}{}"
+teststr = "{[()]}{}{}{}{}]"
 print(s.isValid(teststr))
 
 
