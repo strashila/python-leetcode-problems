@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/integer-to-roman/
+
 def isValidSudoku(board):
     # checking rows
     for row in board:
@@ -23,9 +25,6 @@ def isValidSudoku(board):
             if not isValidSudoku3Square(board,i,j):
                 return False    
     return True
-
-
-
 
 
 def isValidSudokuList(listOfNums): # checks for duplicated in list
@@ -65,11 +64,11 @@ board = [["5","3",".",".","7",".",".",".","."]
         ,["7",".",".",".","2",".",".",".","6"]
         ,[".","6",".",".",".",".","2","8","."]
         ,[".",".",".","4","1","9",".",".","5"]
-        ,[".",".",".",".","8",".",".","7","9"]]
+        ,[".",".",".",".","5",".",".","7","9"]]
 
 
-#print(isValidSudoku3Square(board, 3, 0))
+print(isValidSudoku3Square(board, 3, 0))
 
-#print (isValidSudokuList(board[8]))
+print (isValidSudokuList(board[8]))
 
 print (isValidSudoku(board))
