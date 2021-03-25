@@ -42,7 +42,7 @@ class Solution:
         }
 
         roman_num = ""
-        for i in range(thousands):
+        for _ in range(thousands):
             roman_num += "M"
 
         if hundrends in hundrends_dict:
